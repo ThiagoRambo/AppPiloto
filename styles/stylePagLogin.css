@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #106049;
+}
+
+.divView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.divText {
+
+  text-align: center;
+}
+
+.divBoxLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  height: 250px;
+  border-top: 1px solid rgba(0, 0, 0, 0.308);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+  
+  padding: 30px;
+  gap: 10px;
+}
+
+
+.areaInput {
+  background-color: rgba(255, 255, 255, 0.699);
+  padding: 0px 0px 0px 50px;
+  border: 1px solid red;
+}
+
+.areaInput input {
+  padding: 10px 0px 10px 0px;
+  border: 1px solid blue;
+  /* border: none; */
+  font-size: 16px;
+  outline: none;
+  background: none;
+}
