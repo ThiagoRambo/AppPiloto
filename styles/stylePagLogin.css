@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background-color: #106049;
+  background: linear-gradient(135deg, #05251c, #045f45, #063326);
 }
 
 .divView {

@@ -9,7 +9,7 @@ color: #faa61a; */
 }
 
 body{
-  background: linear-gradient(135deg, #87CEEB, #1E90FF);
+  background: linear-gradient(135deg, #05251c, #045f45, #063326);
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -29,7 +29,7 @@ body{
 
 .dashboard-header h2 {
   font-size: 28px;
-  color: #1E90FF;
+  color: #0e634b;
 }
 
 .dashboard-header p {
@@ -58,7 +58,7 @@ body{
 
 button {
   padding: 5px;
-  background-color: #1E90FF;
+  background-color: #106049;
   color: white;
   border: none;
   border-radius: 16px;
@@ -68,6 +68,6 @@ button {
 
 button:hover {
   transition: background-color 0.3s;
-  background-color: #1565b5;
+  background-color: #073a2c;
 }
 
